@@ -1,0 +1,166 @@
+{
+    "sketch_1": {
+        "reference_plane": {
+            "base_plane": "XY",
+            "offset": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "offset_2d": [
+                0.0,
+                0.0
+            ],
+            "normalized_origin": [
+                0,
+                0,
+                0
+            ]
+        },
+        "transform": {
+            "origin": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "x_axis": [
+                1.0,
+                0.0,
+                0.0
+            ],
+            "y_axis": [
+                0.0,
+                1.0,
+                0.0
+            ],
+            "z_axis": [
+                0.0,
+                0.0,
+                1.0
+            ],
+            "rotate": [
+                -0.0,
+                0.0,
+                -0.0
+            ]
+        },
+        "sequences": [
+            {
+                "profile_name": "profile_1",
+                "loops": [
+                    {
+                        "loop_name": "loop_1_1",
+                        "curves": [
+                            {
+                                "name": "line_1_1_1",
+                                "type": "Line",
+                                "start_point": [
+                                    0.0,
+                                    -254.0
+                                ],
+                                "end_point": [
+                                    254.0,
+                                    -254.0
+                                ]
+                            },
+                            {
+                                "name": "line_1_1_2",
+                                "type": "Line",
+                                "start_point": [
+                                    254.0,
+                                    -254.0
+                                ],
+                                "end_point": [
+                                    254.0,
+                                    0.0
+                                ]
+                            },
+                            {
+                                "name": "line_1_1_3",
+                                "type": "Line",
+                                "start_point": [
+                                    254.0,
+                                    0.0
+                                ],
+                                "end_point": [
+                                    25.4,
+                                    0.0
+                                ]
+                            },
+                            {
+                                "name": "arc_1_1_4",
+                                "type": "Arc",
+                                "start_point": [
+                                    25.4,
+                                    0.0
+                                ],
+                                "mid_point": [
+                                    17.961,
+                                    -17.961
+                                ],
+                                "end_point": [
+                                    0.0,
+                                    -25.4
+                                ],
+                                "center_point": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "radius": 25.4
+                            },
+                            {
+                                "name": "line_1_1_5",
+                                "type": "Line",
+                                "start_point": [
+                                    0.0,
+                                    -25.4
+                                ],
+                                "end_point": [
+                                    0.0,
+                                    -254.0
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "constraints": [
+            {
+                "related_entity": [
+                    "line_1_1_1"
+                ],
+                "parameter": null,
+                "constraint_type": "Horizontal"
+            },
+            {
+                "related_entity": [
+                    "line_1_1_1.end_point",
+                    "line_1_1_2.start_point"
+                ],
+                "parameter": null,
+                "constraint_type": "Coincident"
+            },
+            {
+                "related_entity": [
+                    "line_1_1_1"
+                ],
+                "parameter": 254.0,
+                "constraint_type": "Length"
+            },
+            {
+                "related_entity": [
+                    "line_1_1_2"
+                ],
+                "parameter": 254.0,
+                "constraint_type": "Length"
+            }
+        ]
+    },
+    "extrude_1": {
+        "operation": 0,
+        "extent_type": 0,
+        "extent_one": 12.7,
+        "extent_two": 0.0
+    }
+}

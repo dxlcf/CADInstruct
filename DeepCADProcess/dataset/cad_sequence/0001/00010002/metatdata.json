@@ -1,0 +1,1464 @@
+{
+    "sketch_1": {
+        "reference_plane": {
+            "base_plane": "XY",
+            "offset": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "offset_2d": [
+                0.0,
+                0.0
+            ],
+            "normalized_origin": [
+                0,
+                0,
+                0
+            ]
+        },
+        "transform": {
+            "origin": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "x_axis": [
+                1.0,
+                0.0,
+                0.0
+            ],
+            "y_axis": [
+                0.0,
+                1.0,
+                0.0
+            ],
+            "z_axis": [
+                0.0,
+                0.0,
+                1.0
+            ],
+            "rotate": [
+                -0.0,
+                0.0,
+                -0.0
+            ]
+        },
+        "sequences": [
+            {
+                "profile_name": "profile_1",
+                "loops": [
+                    {
+                        "loop_name": "loop_1_1",
+                        "curves": [
+                            {
+                                "name": "arc_1_1_1",
+                                "type": "Arc",
+                                "start_point": [
+                                    0.641,
+                                    0.536
+                                ],
+                                "mid_point": [
+                                    0.724,
+                                    0.418
+                                ],
+                                "end_point": [
+                                    0.785,
+                                    0.287
+                                ],
+                                "center_point": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "radius": 0.836
+                            },
+                            {
+                                "name": "line_1_1_2",
+                                "type": "Line",
+                                "start_point": [
+                                    0.785,
+                                    0.287
+                                ],
+                                "end_point": [
+                                    1.195,
+                                    0.574
+                                ]
+                            },
+                            {
+                                "name": "line_1_1_3",
+                                "type": "Line",
+                                "start_point": [
+                                    1.195,
+                                    0.574
+                                ],
+                                "end_point": [
+                                    1.145,
+                                    0.661
+                                ]
+                            },
+                            {
+                                "name": "line_1_1_4",
+                                "type": "Line",
+                                "start_point": [
+                                    1.145,
+                                    0.661
+                                ],
+                                "end_point": [
+                                    1.095,
+                                    0.747
+                                ]
+                            },
+                            {
+                                "name": "line_1_1_5",
+                                "type": "Line",
+                                "start_point": [
+                                    1.095,
+                                    0.747
+                                ],
+                                "end_point": [
+                                    0.641,
+                                    0.536
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "profile_name": "profile_2",
+                "loops": [
+                    {
+                        "loop_name": "loop_2_1",
+                        "curves": [
+                            {
+                                "name": "arc_2_1_1",
+                                "type": "Arc",
+                                "start_point": [
+                                    0.287,
+                                    0.785
+                                ],
+                                "mid_point": [
+                                    0.418,
+                                    0.724
+                                ],
+                                "end_point": [
+                                    0.536,
+                                    0.641
+                                ],
+                                "center_point": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "radius": 0.836
+                            },
+                            {
+                                "name": "line_2_1_2",
+                                "type": "Line",
+                                "start_point": [
+                                    0.536,
+                                    0.641
+                                ],
+                                "end_point": [
+                                    0.747,
+                                    1.095
+                                ]
+                            },
+                            {
+                                "name": "line_2_1_3",
+                                "type": "Line",
+                                "start_point": [
+                                    0.747,
+                                    1.095
+                                ],
+                                "end_point": [
+                                    0.661,
+                                    1.145
+                                ]
+                            },
+                            {
+                                "name": "line_2_1_4",
+                                "type": "Line",
+                                "start_point": [
+                                    0.661,
+                                    1.145
+                                ],
+                                "end_point": [
+                                    0.574,
+                                    1.195
+                                ]
+                            },
+                            {
+                                "name": "line_2_1_5",
+                                "type": "Line",
+                                "start_point": [
+                                    0.574,
+                                    1.195
+                                ],
+                                "end_point": [
+                                    0.287,
+                                    0.785
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "profile_name": "profile_3",
+                "loops": [
+                    {
+                        "loop_name": "loop_3_1",
+                        "curves": [
+                            {
+                                "name": "arc_3_1_1",
+                                "type": "Arc",
+                                "start_point": [
+                                    -0.144,
+                                    0.824
+                                ],
+                                "mid_point": [
+                                    0.0,
+                                    0.836
+                                ],
+                                "end_point": [
+                                    0.144,
+                                    0.824
+                                ],
+                                "center_point": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "radius": 0.836
+                            },
+                            {
+                                "name": "line_3_1_2",
+                                "type": "Line",
+                                "start_point": [
+                                    0.144,
+                                    0.824
+                                ],
+                                "end_point": [
+                                    0.1,
+                                    1.322
+                                ]
+                            },
+                            {
+                                "name": "line_3_1_3",
+                                "type": "Line",
+                                "start_point": [
+                                    0.1,
+                                    1.322
+                                ],
+                                "end_point": [
+                                    0.0,
+                                    1.322
+                                ]
+                            },
+                            {
+                                "name": "line_3_1_4",
+                                "type": "Line",
+                                "start_point": [
+                                    0.0,
+                                    1.322
+                                ],
+                                "end_point": [
+                                    -0.1,
+                                    1.322
+                                ]
+                            },
+                            {
+                                "name": "line_3_1_5",
+                                "type": "Line",
+                                "start_point": [
+                                    -0.1,
+                                    1.322
+                                ],
+                                "end_point": [
+                                    -0.144,
+                                    0.824
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "profile_name": "profile_4",
+                "loops": [
+                    {
+                        "loop_name": "loop_4_1",
+                        "curves": [
+                            {
+                                "name": "line_4_1_1",
+                                "type": "Line",
+                                "start_point": [
+                                    -0.747,
+                                    1.095
+                                ],
+                                "end_point": [
+                                    -0.536,
+                                    0.641
+                                ]
+                            },
+                            {
+                                "name": "arc_4_1_2",
+                                "type": "Arc",
+                                "start_point": [
+                                    -0.536,
+                                    0.641
+                                ],
+                                "mid_point": [
+                                    -0.418,
+                                    0.724
+                                ],
+                                "end_point": [
+                                    -0.287,
+                                    0.785
+                                ],
+                                "center_point": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "radius": 0.836
+                            },
+                            {
+                                "name": "line_4_1_3",
+                                "type": "Line",
+                                "start_point": [
+                                    -0.287,
+                                    0.785
+                                ],
+                                "end_point": [
+                                    -0.574,
+                                    1.195
+                                ]
+                            },
+                            {
+                                "name": "line_4_1_4",
+                                "type": "Line",
+                                "start_point": [
+                                    -0.574,
+                                    1.195
+                                ],
+                                "end_point": [
+                                    -0.661,
+                                    1.145
+                                ]
+                            },
+                            {
+                                "name": "line_4_1_5",
+                                "type": "Line",
+                                "start_point": [
+                                    -0.661,
+                                    1.145
+                                ],
+                                "end_point": [
+                                    -0.747,
+                                    1.095
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "profile_name": "profile_5",
+                "loops": [
+                    {
+                        "loop_name": "loop_5_1",
+                        "curves": [
+                            {
+                                "name": "line_5_1_1",
+                                "type": "Line",
+                                "start_point": [
+                                    -1.195,
+                                    0.574
+                                ],
+                                "end_point": [
+                                    -0.785,
+                                    0.287
+                                ]
+                            },
+                            {
+                                "name": "arc_5_1_2",
+                                "type": "Arc",
+                                "start_point": [
+                                    -0.785,
+                                    0.287
+                                ],
+                                "mid_point": [
+                                    -0.724,
+                                    0.418
+                                ],
+                                "end_point": [
+                                    -0.641,
+                                    0.536
+                                ],
+                                "center_point": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "radius": 0.836
+                            },
+                            {
+                                "name": "line_5_1_3",
+                                "type": "Line",
+                                "start_point": [
+                                    -0.641,
+                                    0.536
+                                ],
+                                "end_point": [
+                                    -1.095,
+                                    0.747
+                                ]
+                            },
+                            {
+                                "name": "line_5_1_4",
+                                "type": "Line",
+                                "start_point": [
+                                    -1.095,
+                                    0.747
+                                ],
+                                "end_point": [
+                                    -1.145,
+                                    0.661
+                                ]
+                            },
+                            {
+                                "name": "line_5_1_5",
+                                "type": "Line",
+                                "start_point": [
+                                    -1.145,
+                                    0.661
+                                ],
+                                "end_point": [
+                                    -1.195,
+                                    0.574
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "profile_name": "profile_6",
+                "loops": [
+                    {
+                        "loop_name": "loop_6_1",
+                        "curves": [
+                            {
+                                "name": "line_6_1_1",
+                                "type": "Line",
+                                "start_point": [
+                                    -1.322,
+                                    -0.1
+                                ],
+                                "end_point": [
+                                    -0.824,
+                                    -0.144
+                                ]
+                            },
+                            {
+                                "name": "arc_6_1_2",
+                                "type": "Arc",
+                                "start_point": [
+                                    -0.824,
+                                    -0.144
+                                ],
+                                "mid_point": [
+                                    -0.836,
+                                    -0.0
+                                ],
+                                "end_point": [
+                                    -0.824,
+                                    0.144
+                                ],
+                                "center_point": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "radius": 0.836
+                            },
+                            {
+                                "name": "line_6_1_3",
+                                "type": "Line",
+                                "start_point": [
+                                    -0.824,
+                                    0.144
+                                ],
+                                "end_point": [
+                                    -1.322,
+                                    0.1
+                                ]
+                            },
+                            {
+                                "name": "line_6_1_4",
+                                "type": "Line",
+                                "start_point": [
+                                    -1.322,
+                                    0.1
+                                ],
+                                "end_point": [
+                                    -1.322,
+                                    0.0
+                                ]
+                            },
+                            {
+                                "name": "line_6_1_5",
+                                "type": "Line",
+                                "start_point": [
+                                    -1.322,
+                                    0.0
+                                ],
+                                "end_point": [
+                                    -1.322,
+                                    -0.1
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "profile_name": "profile_7",
+                "loops": [
+                    {
+                        "loop_name": "loop_7_1",
+                        "curves": [
+                            {
+                                "name": "line_7_1_1",
+                                "type": "Line",
+                                "start_point": [
+                                    -1.195,
+                                    -0.574
+                                ],
+                                "end_point": [
+                                    -1.145,
+                                    -0.661
+                                ]
+                            },
+                            {
+                                "name": "line_7_1_2",
+                                "type": "Line",
+                                "start_point": [
+                                    -1.145,
+                                    -0.661
+                                ],
+                                "end_point": [
+                                    -1.095,
+                                    -0.747
+                                ]
+                            },
+                            {
+                                "name": "line_7_1_3",
+                                "type": "Line",
+                                "start_point": [
+                                    -1.095,
+                                    -0.747
+                                ],
+                                "end_point": [
+                                    -0.641,
+                                    -0.536
+                                ]
+                            },
+                            {
+                                "name": "arc_7_1_4",
+                                "type": "Arc",
+                                "start_point": [
+                                    -0.641,
+                                    -0.536
+                                ],
+                                "mid_point": [
+                                    -0.724,
+                                    -0.418
+                                ],
+                                "end_point": [
+                                    -0.785,
+                                    -0.287
+                                ],
+                                "center_point": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "radius": 0.836
+                            },
+                            {
+                                "name": "line_7_1_5",
+                                "type": "Line",
+                                "start_point": [
+                                    -0.785,
+                                    -0.287
+                                ],
+                                "end_point": [
+                                    -1.195,
+                                    -0.574
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "profile_name": "profile_8",
+                "loops": [
+                    {
+                        "loop_name": "loop_8_1",
+                        "curves": [
+                            {
+                                "name": "line_8_1_1",
+                                "type": "Line",
+                                "start_point": [
+                                    -0.747,
+                                    -1.095
+                                ],
+                                "end_point": [
+                                    -0.661,
+                                    -1.145
+                                ]
+                            },
+                            {
+                                "name": "line_8_1_2",
+                                "type": "Line",
+                                "start_point": [
+                                    -0.661,
+                                    -1.145
+                                ],
+                                "end_point": [
+                                    -0.574,
+                                    -1.195
+                                ]
+                            },
+                            {
+                                "name": "line_8_1_3",
+                                "type": "Line",
+                                "start_point": [
+                                    -0.574,
+                                    -1.195
+                                ],
+                                "end_point": [
+                                    -0.287,
+                                    -0.785
+                                ]
+                            },
+                            {
+                                "name": "arc_8_1_4",
+                                "type": "Arc",
+                                "start_point": [
+                                    -0.287,
+                                    -0.785
+                                ],
+                                "mid_point": [
+                                    -0.418,
+                                    -0.724
+                                ],
+                                "end_point": [
+                                    -0.536,
+                                    -0.641
+                                ],
+                                "center_point": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "radius": 0.836
+                            },
+                            {
+                                "name": "line_8_1_5",
+                                "type": "Line",
+                                "start_point": [
+                                    -0.536,
+                                    -0.641
+                                ],
+                                "end_point": [
+                                    -0.747,
+                                    -1.095
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "profile_name": "profile_9",
+                "loops": [
+                    {
+                        "loop_name": "loop_9_1",
+                        "curves": [
+                            {
+                                "name": "line_9_1_1",
+                                "type": "Line",
+                                "start_point": [
+                                    -0.144,
+                                    -0.824
+                                ],
+                                "end_point": [
+                                    -0.1,
+                                    -1.322
+                                ]
+                            },
+                            {
+                                "name": "line_9_1_2",
+                                "type": "Line",
+                                "start_point": [
+                                    -0.1,
+                                    -1.322
+                                ],
+                                "end_point": [
+                                    0.0,
+                                    -1.322
+                                ]
+                            },
+                            {
+                                "name": "line_9_1_3",
+                                "type": "Line",
+                                "start_point": [
+                                    0.0,
+                                    -1.322
+                                ],
+                                "end_point": [
+                                    0.1,
+                                    -1.322
+                                ]
+                            },
+                            {
+                                "name": "line_9_1_4",
+                                "type": "Line",
+                                "start_point": [
+                                    0.1,
+                                    -1.322
+                                ],
+                                "end_point": [
+                                    0.144,
+                                    -0.824
+                                ]
+                            },
+                            {
+                                "name": "arc_9_1_5",
+                                "type": "Arc",
+                                "start_point": [
+                                    0.144,
+                                    -0.824
+                                ],
+                                "mid_point": [
+                                    0.0,
+                                    -0.836
+                                ],
+                                "end_point": [
+                                    -0.144,
+                                    -0.824
+                                ],
+                                "center_point": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "radius": 0.836
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "profile_name": "profile_10",
+                "loops": [
+                    {
+                        "loop_name": "loop_10_1",
+                        "curves": [
+                            {
+                                "name": "line_10_1_1",
+                                "type": "Line",
+                                "start_point": [
+                                    0.287,
+                                    -0.785
+                                ],
+                                "end_point": [
+                                    0.574,
+                                    -1.195
+                                ]
+                            },
+                            {
+                                "name": "line_10_1_2",
+                                "type": "Line",
+                                "start_point": [
+                                    0.574,
+                                    -1.195
+                                ],
+                                "end_point": [
+                                    0.661,
+                                    -1.145
+                                ]
+                            },
+                            {
+                                "name": "line_10_1_3",
+                                "type": "Line",
+                                "start_point": [
+                                    0.661,
+                                    -1.145
+                                ],
+                                "end_point": [
+                                    0.747,
+                                    -1.095
+                                ]
+                            },
+                            {
+                                "name": "line_10_1_4",
+                                "type": "Line",
+                                "start_point": [
+                                    0.747,
+                                    -1.095
+                                ],
+                                "end_point": [
+                                    0.536,
+                                    -0.641
+                                ]
+                            },
+                            {
+                                "name": "arc_10_1_5",
+                                "type": "Arc",
+                                "start_point": [
+                                    0.536,
+                                    -0.641
+                                ],
+                                "mid_point": [
+                                    0.418,
+                                    -0.724
+                                ],
+                                "end_point": [
+                                    0.287,
+                                    -0.785
+                                ],
+                                "center_point": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "radius": 0.836
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "profile_name": "profile_11",
+                "loops": [
+                    {
+                        "loop_name": "loop_11_1",
+                        "curves": [
+                            {
+                                "name": "line_11_1_1",
+                                "type": "Line",
+                                "start_point": [
+                                    0.641,
+                                    -0.536
+                                ],
+                                "end_point": [
+                                    1.095,
+                                    -0.747
+                                ]
+                            },
+                            {
+                                "name": "line_11_1_2",
+                                "type": "Line",
+                                "start_point": [
+                                    1.095,
+                                    -0.747
+                                ],
+                                "end_point": [
+                                    1.145,
+                                    -0.661
+                                ]
+                            },
+                            {
+                                "name": "line_11_1_3",
+                                "type": "Line",
+                                "start_point": [
+                                    1.145,
+                                    -0.661
+                                ],
+                                "end_point": [
+                                    1.195,
+                                    -0.574
+                                ]
+                            },
+                            {
+                                "name": "line_11_1_4",
+                                "type": "Line",
+                                "start_point": [
+                                    1.195,
+                                    -0.574
+                                ],
+                                "end_point": [
+                                    0.785,
+                                    -0.287
+                                ]
+                            },
+                            {
+                                "name": "arc_11_1_5",
+                                "type": "Arc",
+                                "start_point": [
+                                    0.785,
+                                    -0.287
+                                ],
+                                "mid_point": [
+                                    0.724,
+                                    -0.418
+                                ],
+                                "end_point": [
+                                    0.641,
+                                    -0.536
+                                ],
+                                "center_point": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "radius": 0.836
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "profile_name": "profile_12",
+                "loops": [
+                    {
+                        "loop_name": "loop_12_1",
+                        "curves": [
+                            {
+                                "name": "line_12_1_1",
+                                "type": "Line",
+                                "start_point": [
+                                    0.824,
+                                    -0.144
+                                ],
+                                "end_point": [
+                                    1.322,
+                                    -0.1
+                                ]
+                            },
+                            {
+                                "name": "line_12_1_2",
+                                "type": "Line",
+                                "start_point": [
+                                    1.322,
+                                    -0.1
+                                ],
+                                "end_point": [
+                                    1.322,
+                                    0.0
+                                ]
+                            },
+                            {
+                                "name": "line_12_1_3",
+                                "type": "Line",
+                                "start_point": [
+                                    1.322,
+                                    0.0
+                                ],
+                                "end_point": [
+                                    1.322,
+                                    0.1
+                                ]
+                            },
+                            {
+                                "name": "line_12_1_4",
+                                "type": "Line",
+                                "start_point": [
+                                    1.322,
+                                    0.1
+                                ],
+                                "end_point": [
+                                    0.824,
+                                    0.144
+                                ]
+                            },
+                            {
+                                "name": "arc_12_1_5",
+                                "type": "Arc",
+                                "start_point": [
+                                    0.824,
+                                    0.144
+                                ],
+                                "mid_point": [
+                                    0.836,
+                                    0.0
+                                ],
+                                "end_point": [
+                                    0.824,
+                                    -0.144
+                                ],
+                                "center_point": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "radius": 0.836
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "profile_name": "profile_13",
+                "loops": [
+                    {
+                        "loop_name": "loop_13_1",
+                        "curves": [
+                            {
+                                "name": "circle_13_1_1",
+                                "type": "Circle",
+                                "center_point": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "radius": 0.836
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "constraints": [
+            {
+                "related_entity": [
+                    "circle_13_1_1.center_point",
+                    "origin"
+                ],
+                "parameter": null,
+                "constraint_type": "Coincident"
+            },
+            {
+                "related_entity": [
+                    "circle_13_1_1"
+                ],
+                "parameter": 1.672,
+                "constraint_type": "Diameter"
+            },
+            {
+                "related_entity": [
+                    "line_3_1_5.end_point",
+                    "circle_13_1_1"
+                ],
+                "parameter": null,
+                "constraint_type": "Coincident"
+            },
+            {
+                "related_entity": [
+                    "line_3_1_4.end_point",
+                    "line_3_1_5.start_point"
+                ],
+                "parameter": null,
+                "constraint_type": "Coincident"
+            },
+            {
+                "related_entity": [
+                    "line_3_1_4"
+                ],
+                "parameter": null,
+                "constraint_type": "Horizontal"
+            },
+            {
+                "related_entity": [
+                    "line_3_1_4.start_point",
+                    "line_3_1_3.end_point"
+                ],
+                "parameter": null,
+                "constraint_type": "Coincident"
+            },
+            {
+                "related_entity": [
+                    "circle_13_1_1",
+                    "line_3_1_2.start_point"
+                ],
+                "parameter": null,
+                "constraint_type": "Coincident"
+            },
+            {
+                "related_entity": [
+                    "line_3_1_3.start_point",
+                    "line_3_1_2.end_point"
+                ],
+                "parameter": null,
+                "constraint_type": "Coincident"
+            },
+            {
+                "related_entity": [
+                    "line_3_1_4.end_point",
+                    "line_3_1_3.start_point"
+                ],
+                "parameter": 0.2,
+                "constraint_type": "Distance"
+            },
+            {
+                "related_entity": [
+                    "line_3_1_5"
+                ],
+                "parameter": 0.5,
+                "constraint_type": "Length"
+            },
+            {
+                "related_entity": [
+                    "line_3_1_4",
+                    "line_3_1_5"
+                ],
+                "parameter": 95.0,
+                "constraint_type": "Angle"
+            },
+            {
+                "related_entity": [
+                    "line_4_1_5.end_point",
+                    "line_4_1_1.start_point"
+                ],
+                "parameter": null,
+                "constraint_type": "Coincident"
+            },
+            {
+                "related_entity": [
+                    "line_4_1_5.start_point",
+                    "line_4_1_4.end_point"
+                ],
+                "parameter": null,
+                "constraint_type": "Coincident"
+            },
+            {
+                "related_entity": [
+                    "line_4_1_4.start_point",
+                    "line_4_1_3.end_point"
+                ],
+                "parameter": null,
+                "constraint_type": "Coincident"
+            },
+            {
+                "related_entity": [
+                    "line_5_1_5.end_point",
+                    "line_5_1_1.start_point"
+                ],
+                "parameter": null,
+                "constraint_type": "Coincident"
+            },
+            {
+                "related_entity": [
+                    "line_5_1_5.start_point",
+                    "line_5_1_4.end_point"
+                ],
+                "parameter": null,
+                "constraint_type": "Coincident"
+            },
+            {
+                "related_entity": [
+                    "line_5_1_4.start_point",
+                    "line_5_1_3.end_point"
+                ],
+                "parameter": null,
+                "constraint_type": "Coincident"
+            },
+            {
+                "related_entity": [
+                    "line_6_1_5.end_point",
+                    "line_6_1_1.start_point"
+                ],
+                "parameter": null,
+                "constraint_type": "Coincident"
+            },
+            {
+                "related_entity": [
+                    "line_6_1_5.start_point",
+                    "line_6_1_4.end_point"
+                ],
+                "parameter": null,
+                "constraint_type": "Coincident"
+            },
+            {
+                "related_entity": [
+                    "line_6_1_4.start_point",
+                    "line_6_1_3.end_point"
+                ],
+                "parameter": null,
+                "constraint_type": "Coincident"
+            },
+            {
+                "related_entity": [
+                    "line_7_1_2.end_point",
+                    "line_7_1_3.start_point"
+                ],
+                "parameter": null,
+                "constraint_type": "Coincident"
+            },
+            {
+                "related_entity": [
+                    "line_7_1_2.start_point",
+                    "line_7_1_1.end_point"
+                ],
+                "parameter": null,
+                "constraint_type": "Coincident"
+            },
+            {
+                "related_entity": [
+                    "line_7_1_1.start_point",
+                    "line_7_1_5.end_point"
+                ],
+                "parameter": null,
+                "constraint_type": "Coincident"
+            },
+            {
+                "related_entity": [
+                    "line_8_1_2.end_point",
+                    "line_8_1_3.start_point"
+                ],
+                "parameter": null,
+                "constraint_type": "Coincident"
+            },
+            {
+                "related_entity": [
+                    "line_8_1_2.start_point",
+                    "line_8_1_1.end_point"
+                ],
+                "parameter": null,
+                "constraint_type": "Coincident"
+            },
+            {
+                "related_entity": [
+                    "line_8_1_1.start_point",
+                    "line_8_1_5.end_point"
+                ],
+                "parameter": null,
+                "constraint_type": "Coincident"
+            },
+            {
+                "related_entity": [
+                    "line_9_1_3.end_point",
+                    "line_9_1_4.start_point"
+                ],
+                "parameter": null,
+                "constraint_type": "Coincident"
+            },
+            {
+                "related_entity": [
+                    "line_9_1_3.start_point",
+                    "line_9_1_2.end_point"
+                ],
+                "parameter": null,
+                "constraint_type": "Coincident"
+            },
+            {
+                "related_entity": [
+                    "line_9_1_2.start_point",
+                    "line_9_1_1.end_point"
+                ],
+                "parameter": null,
+                "constraint_type": "Coincident"
+            },
+            {
+                "related_entity": [
+                    "line_10_1_3.end_point",
+                    "line_10_1_4.start_point"
+                ],
+                "parameter": null,
+                "constraint_type": "Coincident"
+            },
+            {
+                "related_entity": [
+                    "line_10_1_3.start_point",
+                    "line_10_1_2.end_point"
+                ],
+                "parameter": null,
+                "constraint_type": "Coincident"
+            },
+            {
+                "related_entity": [
+                    "line_10_1_2.start_point",
+                    "line_10_1_1.end_point"
+                ],
+                "parameter": null,
+                "constraint_type": "Coincident"
+            },
+            {
+                "related_entity": [
+                    "line_11_1_3.end_point",
+                    "line_11_1_4.start_point"
+                ],
+                "parameter": null,
+                "constraint_type": "Coincident"
+            },
+            {
+                "related_entity": [
+                    "line_11_1_3.start_point",
+                    "line_11_1_2.end_point"
+                ],
+                "parameter": null,
+                "constraint_type": "Coincident"
+            },
+            {
+                "related_entity": [
+                    "line_11_1_2.start_point",
+                    "line_11_1_1.end_point"
+                ],
+                "parameter": null,
+                "constraint_type": "Coincident"
+            },
+            {
+                "related_entity": [
+                    "line_12_1_3.end_point",
+                    "line_12_1_4.start_point"
+                ],
+                "parameter": null,
+                "constraint_type": "Coincident"
+            },
+            {
+                "related_entity": [
+                    "line_12_1_3.start_point",
+                    "line_12_1_2.end_point"
+                ],
+                "parameter": null,
+                "constraint_type": "Coincident"
+            },
+            {
+                "related_entity": [
+                    "line_12_1_2.start_point",
+                    "line_12_1_1.end_point"
+                ],
+                "parameter": null,
+                "constraint_type": "Coincident"
+            },
+            {
+                "related_entity": [
+                    "line_1_1_4.end_point",
+                    "line_1_1_5.start_point"
+                ],
+                "parameter": null,
+                "constraint_type": "Coincident"
+            },
+            {
+                "related_entity": [
+                    "line_1_1_4.start_point",
+                    "line_1_1_3.end_point"
+                ],
+                "parameter": null,
+                "constraint_type": "Coincident"
+            },
+            {
+                "related_entity": [
+                    "line_1_1_3.start_point",
+                    "line_1_1_2.end_point"
+                ],
+                "parameter": null,
+                "constraint_type": "Coincident"
+            },
+            {
+                "related_entity": [
+                    "line_2_1_4.end_point",
+                    "line_2_1_5.start_point"
+                ],
+                "parameter": null,
+                "constraint_type": "Coincident"
+            },
+            {
+                "related_entity": [
+                    "line_2_1_4.start_point",
+                    "line_2_1_3.end_point"
+                ],
+                "parameter": null,
+                "constraint_type": "Coincident"
+            },
+            {
+                "related_entity": [
+                    "line_2_1_3.start_point",
+                    "line_2_1_2.end_point"
+                ],
+                "parameter": null,
+                "constraint_type": "Coincident"
+            }
+        ]
+    },
+    "extrude_1": {
+        "operation": 0,
+        "extent_type": 0,
+        "extent_one": 2.0,
+        "extent_two": 0.0
+    },
+    "sketch_2": {
+        "reference_plane": {
+            "reference_object": "extrude_1",
+            "z_axis": [
+                0.0,
+                0.0,
+                1.0
+            ],
+            "offset_2d": [
+                0.0,
+                0.0
+            ],
+            "normalized_origin": [
+                0.0,
+                0.0,
+                2.0
+            ]
+        },
+        "transform": {
+            "origin": [
+                0.0,
+                -0.0,
+                2.0
+            ],
+            "x_axis": [
+                1.0,
+                0.0,
+                0.0
+            ],
+            "y_axis": [
+                0.0,
+                1.0,
+                0.0
+            ],
+            "z_axis": [
+                0.0,
+                0.0,
+                1.0
+            ],
+            "rotate": [
+                -0.0,
+                0.0,
+                -0.0
+            ]
+        },
+        "sequences": [
+            {
+                "profile_name": "profile_1",
+                "loops": [
+                    {
+                        "loop_name": "loop_1_1",
+                        "curves": [
+                            {
+                                "name": "circle_1_1_1",
+                                "type": "Circle",
+                                "center_point": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "radius": 0.25
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "constraints": [
+            {
+                "related_entity": [
+                    "circle_1_1_1.center_point",
+                    "origin"
+                ],
+                "parameter": null,
+                "constraint_type": "Coincident"
+            },
+            {
+                "related_entity": [
+                    "circle_1_1_1"
+                ],
+                "parameter": 0.5,
+                "constraint_type": "Diameter"
+            }
+        ]
+    },
+    "extrude_2": {
+        "operation": 2,
+        "extent_type": 0,
+        "extent_one": -25.0,
+        "extent_two": 0.0
+    }
+}

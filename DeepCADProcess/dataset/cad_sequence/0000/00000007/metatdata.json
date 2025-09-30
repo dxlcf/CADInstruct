@@ -1,0 +1,85 @@
+{
+    "sketch_1": {
+        "reference_plane": {
+            "base_plane": "XY",
+            "offset": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "offset_2d": [
+                0.0,
+                0.0
+            ],
+            "normalized_origin": [
+                0,
+                0,
+                0
+            ]
+        },
+        "transform": {
+            "origin": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "x_axis": [
+                1.0,
+                0.0,
+                0.0
+            ],
+            "y_axis": [
+                0.0,
+                1.0,
+                0.0
+            ],
+            "z_axis": [
+                0.0,
+                0.0,
+                1.0
+            ],
+            "rotate": [
+                -0.0,
+                0.0,
+                -0.0
+            ]
+        },
+        "sequences": [
+            {
+                "profile_name": "profile_1",
+                "loops": [
+                    {
+                        "loop_name": "loop_1_1",
+                        "curves": [
+                            {
+                                "name": "circle_1_1_1",
+                                "type": "Circle",
+                                "center_point": [
+                                    0.0,
+                                    0.0
+                                ],
+                                "radius": 91.049
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "constraints": [
+            {
+                "related_entity": [
+                    "circle_1_1_1.center_point",
+                    "origin"
+                ],
+                "parameter": null,
+                "constraint_type": "Coincident"
+            }
+        ]
+    },
+    "extrude_1": {
+        "operation": 0,
+        "extent_type": 0,
+        "extent_one": 25.4,
+        "extent_two": 0.0
+    }
+}
