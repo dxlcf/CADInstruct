@@ -2,8 +2,10 @@
 
 This project corresponds to the paper "CADInstruct: A multimodal dataset for natural language-guided CAD program synthesis", which has been accepted for publication.
 
-The code and dataset are currently being organized and will be uploaded soon.
 
+## Dataset Download
+
+The CADInstruct dataset is available at: https://drive.google.com/drive/folders/1aVnrFqZEl-wS-mBmZ_3dYCDoxNuXNy6z?usp=sharing
 
 # Environment Setup
 
